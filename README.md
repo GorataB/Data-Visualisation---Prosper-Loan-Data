@@ -17,7 +17,7 @@ Perform exploratory data analysis and communicate findings using explanatory plo
 2. [ProsperLoan_Part1_Exploration.html](ProsperLoan_Part1_Exploration.html): the html version of the exploratory analysis.
 3. [ProsperLoan_Part_II_slide_deck.ipynb](ProsperLoan_Part_II_slide_deck.ipynb): the Jupyter Notebook for explanatory analysis, which is in the form a slide deck.
 4. [ProsperLoan_Part_II_slide_deck.slides.html]( ProsperLoan_Part_II_slide_deck.slides.html): the html version of the explanatory analysis.
-5. [prosperLoanData.csv](prosperLoanData.csv): the dataset to be used for analysis
+5. [prosperLoanData.csv](prosperLoanData.csv): the dataset to be used for analysis. It is available under Releases as it was too large to upload.
 6. [Prosper Loan Data - Variable Definitions.xlsx](<Prosper Loan Data - Variable Definitions.xlsx>): a data dictionary explaining all the variables in the dataset.
 
 ## Summary of Findings
