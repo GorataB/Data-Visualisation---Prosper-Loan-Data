@@ -65,3 +65,12 @@ Perform exploratory data analysis and communicate findings using explanatory plo
 * The number of recommendations a borrower has can be used to predict whether or not they will clear their loans. Most borrowers have 0 to 1 recommendations but the distributions of recommendations per loan status show the highest concentration of upper outliers around Completed loan status. 
     
 * There is a positive relationship between DtI and BorrowerRate, and Current and Completed loan statuses have the highest concentrations of values around the lower regions of both numeric variables. This means that borrowers with lower DtIs and interest ratess are more likely to clear their loans.
+
+## Author
+
+Gorata Malose
+[Linkedin: Gorata Malose](https://www.linkedin.com/in/gorata-bridget-malose/)
+
+## License
+
+This project is licensed under the [MIT](MIT-LICENSE.txt) License and it was submitted by Gorata Malose as part of Udacity's Data Analyst Nanodegree programme.
