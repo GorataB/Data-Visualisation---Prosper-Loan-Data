@@ -9,7 +9,7 @@ Perform exploratory data analysis and communicate findings using explanatory plo
 > 
 > I'm interested in factors that affect loan status **(LoanStatus)**, which is a nominal categorical variable. I expect numeric variables like **BorrowerRate** and **DebtToIncomeRatio** (DtI), and categorical variables like **EmploymentStatus** and **IncomeRange** and to be strong determinants of loan status. Though variables like **IncomeVerifiable** (categorical) and **Recommendations** (numeric) will not have as direct an influence, I expect them to be useful predictors of whether an individual will clear their loan.
 >
-> I will first perform exploratory analysis, followed by explanatory analysis on Slide Deck.
+> I will first perform exploratory analysis, followed by explanatory analysis on a slide deck.
 
 ## Files
 
