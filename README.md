@@ -3,20 +3,22 @@ Perform exploratory data analysis and communicate findings using explanatory plo
 
 ## Dataset
 
-> There are 113, 937 loan listings in the Prosper Loan dataset, with 81 features. The dataset is too large, so I created a dataframe called 'loan', with only 32 columns, which include variables of interest, related variables, and identifier variables. The (data dictionary) explains all the variables in the dataset. 
+> There are 113, 937 loan listings in the [Prosper Loan dataset](prosperLoanData.csv), with 81 features. The dataset is too large, so I created a dataframe called 'loan', with only 32 columns, which include variables of interest, related variables, and identifier variables. The [data dictionary](<Prosper Loan Data - Variable Definitions.xlsx>) explains all the variables in the dataset. 
 > 
 > I also performed some preliminary wrangling to fix some column names and order of some categorical values. Most variables are numeric, but there are a few nominal and ordinal categorical variables, some of which I used in my exploration. 
 > 
 > I'm interested in factors that affect loan status **(LoanStatus)**, which is a nominal categorical variable. I expect numeric variables like **BorrowerRate** and **DebtToIncomeRatio** (DtI), and categorical variables like **EmploymentStatus** and **IncomeRange** and to be strong determinants of loan status. Though variables like **IncomeVerifiable** (categorical) and **Recommendations** (numeric) will not have as direct an influence, I expect them to be useful predictors of whether an individual will clear their loan.
+>
+> I will first perform exploratory analysis, followed by explanatory analysis on Slide Deck.
 
 ## Files
 
-1. ProsperLoan_Part1_Exploration.ipynb: the Jupyter Notebook for exploratory analysis.
-2. ProsperLoan_Part1_Exploration.html: the html version of the exploratory analysis.
-3. ProsperLoan_Part_II_slide_deck.ipynb: the Jupyter Notebook for explanatory analysis, which is in the form a slide deck.
-4. ProsperLoan_Part_II_slide_deck.slides.html: the html version of the explanatory analysis.
-5. prosperLoanData.csv: the dataset to be used for analysis
-6. Prosper Loan Data - Variable Definitions.xlsx: a data dictionary explaining all the variables in the dataset.
+1. [ProsperLoan_Part1_Exploration.ipynb](ProsperLoan_Part1_Exploration.ipynb): the Jupyter Notebook for exploratory analysis.
+2. [ProsperLoan_Part1_Exploration.html](ProsperLoan_Part1_Exploration.html): the html version of the exploratory analysis.
+3. [ProsperLoan_Part_II_slide_deck.ipynb](ProsperLoan_Part_II_slide_deck.ipynb): the Jupyter Notebook for explanatory analysis, which is in the form a slide deck.
+4. [ProsperLoan_Part_II_slide_deck.slides.html]( ProsperLoan_Part_II_slide_deck.slides.html): the html version of the explanatory analysis.
+5. [prosperLoanData.csv](prosperLoanData.csv): the dataset to be used for analysis
+6. [Prosper Loan Data - Variable Definitions.xlsx](<Prosper Loan Data - Variable Definitions.xlsx>): a data dictionary explaining all the variables in the dataset.
 
 ## Summary of Findings
 
@@ -54,7 +56,7 @@ Perform exploratory data analysis and communicate findings using explanatory plo
 3. There also isn't much difference between box plots for relationship between LoanStatus, BorrowerRate and EmploymentStatus, but employed and retired tend to have lower median rates.
 
 
-## Key Insights for Presentation
+## Key Insights for Explanatory Presentation:
 
 * Most borrowers either have Completed or Current loan statuses, and they have a Debt-to-Income Ratio (DtI) of around 0.2, which is an acceptable value. The distribution for BorrowerRate is right-skewed and multimodal.
    
