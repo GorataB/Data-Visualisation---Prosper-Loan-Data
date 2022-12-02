@@ -69,6 +69,7 @@ Perform exploratory data analysis and communicate findings using explanatory plo
 ## Author
 
 Gorata Malose
+<br>
 [Linkedin: Gorata Malose](https://www.linkedin.com/in/gorata-bridget-malose/)
 
 ## License
